@@ -16,5 +16,5 @@ Configure your Database, then run:
 - php artisan snapshot:load lead-project-snapshot
 
 Project uses Google Recaptcha 2 version, add your domain to Google configuration and set keys to env.php:
-NOCAPTCHA_SITEKEY=SITEKEY
-NOCAPTCHA_SECRET=SECRET
+- NOCAPTCHA_SITEKEY=SITEKEY
+- NOCAPTCHA_SECRET=SECRET
