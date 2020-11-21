@@ -18,3 +18,21 @@ Configure your Database, then run:
 Project uses Google Recaptcha 2 version, add your domain to Google configuration and set keys to env.php:
 - NOCAPTCHA_SITEKEY=SITEKEY
 - NOCAPTCHA_SECRET=SECRET
+
+Configure mail options in env.php(use gmail host or other)
+- MAIL_MAILER=smtp
+- MAIL_HOST=smtp.gmail.com
+- MAIL_PORT=465
+- MAIL_USERNAME=USERNAME@gmail.com
+- MAIL_PASSWORD=PASSWORD
+- MAIL_ENCRYPTION=ssl
+- MAIL_FROM_ADDRESS=null
+- MAIL_FROM_NAME="${APP_NAME}"
+
+
+Manager login credentials:
+- email: maxiskosenko@gmail.com
+- password: 123123123
+
+Project uses Queue email notifications for manager on creating new lead. 
+So for checking notifications change a manager email to your
